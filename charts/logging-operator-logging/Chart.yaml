@@ -20,10 +20,10 @@ annotations:
     - name: fluent-bit
       image: fluent/fluent-bit:1.9.5
     - name: fluentd
-      image: ghcr.io/kube-logging/fluentd:v1.14.6
+      image: registry.cn-hangzhou.aliyuncs.com/macrow_dev_mirror/ghcr.io.kube-logging.fluentd:v1.14.6
     - name: syslog-ng
       image: ghcr.io/axoflow/syslog-ng:4.0.1_git20230225
     - name: logging-operator
-      image: ghcr.io/kube-logging/logging-operator:4.0.0
+      image: registry.cn-hangzhou.aliyuncs.com/macrow_dev_mirror/ghcr.io.kube-logging.logging-operator:4.0.0
     - name: config-reloader
-      image: ghcr.io/kube-logging/config-reloader:v0.0.2
+      image: registry.cn-hangzhou.aliyuncs.com/macrow_dev_mirror/ghcr.io.kube-logging.config-reloader:v0.0.2

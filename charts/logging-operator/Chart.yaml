@@ -19,4 +19,4 @@ annotations:
       description: Moved to to location
   artifacthub.io/images: |
     - name: logging-operator
-      image: ghcr.io/kube-logging/logging-operator:4.0.0
+      image: registry.cn-hangzhou.aliyuncs.com/macrow_dev_mirror/ghcr.io.kube-logging.logging-operator:4.0.0

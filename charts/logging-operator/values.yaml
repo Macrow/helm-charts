@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   # -- Name of the image repository to pull the container image from.
-  repository: ghcr.io/kube-logging/logging-operator
+  repository: pull registry.cn-hangzhou.aliyuncs.com/macrow_dev_mirror/ghcr.io.kube-logging.logging-operator
 
   # -- Image tag override for the default value (chart appVersion).
   tag: ""
